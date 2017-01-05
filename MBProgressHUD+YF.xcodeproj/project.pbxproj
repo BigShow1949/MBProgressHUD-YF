@@ -16,29 +16,10 @@
 		B87B59581C3F9C9300A842F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B87B59561C3F9C9300A842F2 /* Main.storyboard */; };
 		B87B595A1C3F9C9300A842F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B87B59591C3F9C9300A842F2 /* Assets.xcassets */; };
 		B87B595D1C3F9C9300A842F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B87B595B1C3F9C9300A842F2 /* LaunchScreen.storyboard */; };
-		B87B59681C3F9C9300A842F2 /* MBProgressHUD_YFTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B87B59671C3F9C9300A842F2 /* MBProgressHUD_YFTests.m */; };
-		B87B59731C3F9C9300A842F2 /* MBProgressHUD_YFUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B87B59721C3F9C9300A842F2 /* MBProgressHUD_YFUITests.m */; };
 		B87B59851C3F9D6600A842F2 /* MBProgressHUD+YF.m in Sources */ = {isa = PBXBuildFile; fileRef = B87B59821C3F9D6600A842F2 /* MBProgressHUD+YF.m */; };
 		B87B59861C3F9D6600A842F2 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B87B59841C3F9D6600A842F2 /* MBProgressHUD.m */; };
 		B87B59891C3F9D8D00A842F2 /* YFViewControllerB.m in Sources */ = {isa = PBXBuildFile; fileRef = B87B59881C3F9D8D00A842F2 /* YFViewControllerB.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B87B59641C3F9C9300A842F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B87B59421C3F9C9300A842F2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B87B59491C3F9C9300A842F2;
-			remoteInfo = "MBProgressHUD+YF";
-		};
-		B87B596F1C3F9C9300A842F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B87B59421C3F9C9300A842F2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B87B59491C3F9C9300A842F2;
-			remoteInfo = "MBProgressHUD+YF";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		18D531BC1E1DE8A3006B4D89 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -54,12 +35,6 @@
 		B87B59591C3F9C9300A842F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B87B595C1C3F9C9300A842F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B87B595E1C3F9C9300A842F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B87B59631C3F9C9300A842F2 /* MBProgressHUD+YFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MBProgressHUD+YFTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B87B59671C3F9C9300A842F2 /* MBProgressHUD_YFTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD_YFTests.m; sourceTree = "<group>"; };
-		B87B59691C3F9C9300A842F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B87B596E1C3F9C9300A842F2 /* MBProgressHUD+YFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MBProgressHUD+YFUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B87B59721C3F9C9300A842F2 /* MBProgressHUD_YFUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD_YFUITests.m; sourceTree = "<group>"; };
-		B87B59741C3F9C9300A842F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B87B59811C3F9D6600A842F2 /* MBProgressHUD+YF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+YF.h"; sourceTree = "<group>"; };
 		B87B59821C3F9D6600A842F2 /* MBProgressHUD+YF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+YF.m"; sourceTree = "<group>"; };
 		B87B59831C3F9D6600A842F2 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
@@ -76,20 +51,6 @@
 				18D531C11E1DE8B9006B4D89 /* CoreGraphics.framework in Frameworks */,
 				18D531BF1E1DE8AC006B4D89 /* Foundation.framework in Frameworks */,
 				18D531BD1E1DE8A3006B4D89 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B87B59601C3F9C9300A842F2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B87B596B1C3F9C9300A842F2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,8 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				B87B594C1C3F9C9300A842F2 /* MBProgressHUD+YF */,
-				B87B59661C3F9C9300A842F2 /* MBProgressHUD+YFTests */,
-				B87B59711C3F9C9300A842F2 /* MBProgressHUD+YFUITests */,
 				B87B594B1C3F9C9300A842F2 /* Products */,
 				18D531BB1E1DE8A3006B4D89 /* Frameworks */,
 			);
@@ -121,8 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				B87B594A1C3F9C9300A842F2 /* MBProgressHUD+YF.app */,
-				B87B59631C3F9C9300A842F2 /* MBProgressHUD+YFTests.xctest */,
-				B87B596E1C3F9C9300A842F2 /* MBProgressHUD+YFUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,24 +109,6 @@
 				B87B594E1C3F9C9300A842F2 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B87B59661C3F9C9300A842F2 /* MBProgressHUD+YFTests */ = {
-			isa = PBXGroup;
-			children = (
-				B87B59671C3F9C9300A842F2 /* MBProgressHUD_YFTests.m */,
-				B87B59691C3F9C9300A842F2 /* Info.plist */,
-			);
-			path = "MBProgressHUD+YFTests";
-			sourceTree = "<group>";
-		};
-		B87B59711C3F9C9300A842F2 /* MBProgressHUD+YFUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B87B59721C3F9C9300A842F2 /* MBProgressHUD_YFUITests.m */,
-				B87B59741C3F9C9300A842F2 /* Info.plist */,
-			);
-			path = "MBProgressHUD+YFUITests";
 			sourceTree = "<group>";
 		};
 		B87B59801C3F9D6600A842F2 /* Tool */ = {
@@ -203,42 +142,6 @@
 			productReference = B87B594A1C3F9C9300A842F2 /* MBProgressHUD+YF.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B87B59621C3F9C9300A842F2 /* MBProgressHUD+YFTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B87B597A1C3F9C9300A842F2 /* Build configuration list for PBXNativeTarget "MBProgressHUD+YFTests" */;
-			buildPhases = (
-				B87B595F1C3F9C9300A842F2 /* Sources */,
-				B87B59601C3F9C9300A842F2 /* Frameworks */,
-				B87B59611C3F9C9300A842F2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B87B59651C3F9C9300A842F2 /* PBXTargetDependency */,
-			);
-			name = "MBProgressHUD+YFTests";
-			productName = "MBProgressHUD+YFTests";
-			productReference = B87B59631C3F9C9300A842F2 /* MBProgressHUD+YFTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		B87B596D1C3F9C9300A842F2 /* MBProgressHUD+YFUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B87B597D1C3F9C9300A842F2 /* Build configuration list for PBXNativeTarget "MBProgressHUD+YFUITests" */;
-			buildPhases = (
-				B87B596A1C3F9C9300A842F2 /* Sources */,
-				B87B596B1C3F9C9300A842F2 /* Frameworks */,
-				B87B596C1C3F9C9300A842F2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B87B59701C3F9C9300A842F2 /* PBXTargetDependency */,
-			);
-			name = "MBProgressHUD+YFUITests";
-			productName = "MBProgressHUD+YFUITests";
-			productReference = B87B596E1C3F9C9300A842F2 /* MBProgressHUD+YFUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -251,14 +154,6 @@
 					B87B59491C3F9C9300A842F2 = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = 686TP5D9Q7;
-					};
-					B87B59621C3F9C9300A842F2 = {
-						CreatedOnToolsVersion = 7.2;
-						TestTargetID = B87B59491C3F9C9300A842F2;
-					};
-					B87B596D1C3F9C9300A842F2 = {
-						CreatedOnToolsVersion = 7.2;
-						TestTargetID = B87B59491C3F9C9300A842F2;
 					};
 				};
 			};
@@ -276,8 +171,6 @@
 			projectRoot = "";
 			targets = (
 				B87B59491C3F9C9300A842F2 /* MBProgressHUD+YF */,
-				B87B59621C3F9C9300A842F2 /* MBProgressHUD+YFTests */,
-				B87B596D1C3F9C9300A842F2 /* MBProgressHUD+YFUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -290,20 +183,6 @@
 				B87B595D1C3F9C9300A842F2 /* LaunchScreen.storyboard in Resources */,
 				B87B595A1C3F9C9300A842F2 /* Assets.xcassets in Resources */,
 				B87B59581C3F9C9300A842F2 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B87B59611C3F9C9300A842F2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B87B596C1C3F9C9300A842F2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,36 +202,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B87B595F1C3F9C9300A842F2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B87B59681C3F9C9300A842F2 /* MBProgressHUD_YFTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B87B596A1C3F9C9300A842F2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B87B59731C3F9C9300A842F2 /* MBProgressHUD_YFUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B87B59651C3F9C9300A842F2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B87B59491C3F9C9300A842F2 /* MBProgressHUD+YF */;
-			targetProxy = B87B59641C3F9C9300A842F2 /* PBXContainerItemProxy */;
-		};
-		B87B59701C3F9C9300A842F2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B87B59491C3F9C9300A842F2 /* MBProgressHUD+YF */;
-			targetProxy = B87B596F1C3F9C9300A842F2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B87B59561C3F9C9300A842F2 /* Main.storyboard */ = {
@@ -482,54 +332,6 @@
 			};
 			name = Release;
 		};
-		B87B597B1C3F9C9300A842F2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "MBProgressHUD+YFTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "MBProgressHUD-YF.BigShow.MBProgressHUD-YFTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MBProgressHUD+YF.app/MBProgressHUD+YF";
-			};
-			name = Debug;
-		};
-		B87B597C1C3F9C9300A842F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "MBProgressHUD+YFTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "MBProgressHUD-YF.BigShow.MBProgressHUD-YFTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MBProgressHUD+YF.app/MBProgressHUD+YF";
-			};
-			name = Release;
-		};
-		B87B597E1C3F9C9300A842F2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "MBProgressHUD+YFUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "MBProgressHUD-YF.BigShow.MBProgressHUD-YFUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "MBProgressHUD+YF";
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		B87B597F1C3F9C9300A842F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "MBProgressHUD+YFUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "MBProgressHUD-YF.BigShow.MBProgressHUD-YFUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "MBProgressHUD+YF";
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -547,24 +349,6 @@
 			buildConfigurations = (
 				B87B59781C3F9C9300A842F2 /* Debug */,
 				B87B59791C3F9C9300A842F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B87B597A1C3F9C9300A842F2 /* Build configuration list for PBXNativeTarget "MBProgressHUD+YFTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B87B597B1C3F9C9300A842F2 /* Debug */,
-				B87B597C1C3F9C9300A842F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B87B597D1C3F9C9300A842F2 /* Build configuration list for PBXNativeTarget "MBProgressHUD+YFUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B87B597E1C3F9C9300A842F2 /* Debug */,
-				B87B597F1C3F9C9300A842F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
