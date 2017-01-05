@@ -14,7 +14,7 @@ s.author       = { "BigShow1949" => "1029883589@qq.com" }
 s.source       = { :git => "https://github.com/BigShow1949/MBProgressHUD-YF.git", :tag => "#{s.version}" }
 s.ios.deployment_target = '6.0'
 s.tvos.deployment_target = '9.0'
-s.source_files = '*.{h,m}'
+s.source_files = "MBProgressHUD+YF/Tool/**/*.{h,m}"
 s.frameworks   = "CoreGraphics", "QuartzCore", "UIKit"
 s.requires_arc = true
 end
