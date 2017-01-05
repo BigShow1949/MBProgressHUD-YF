@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18D531BD1E1DE8A3006B4D89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D531BC1E1DE8A3006B4D89 /* UIKit.framework */; };
+		18D531BF1E1DE8AC006B4D89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D531BE1E1DE8AC006B4D89 /* Foundation.framework */; };
+		18D531C11E1DE8B9006B4D89 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D531C01E1DE8B9006B4D89 /* CoreGraphics.framework */; };
 		B87B594F1C3F9C9300A842F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B87B594E1C3F9C9300A842F2 /* main.m */; };
 		B87B59521C3F9C9300A842F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B87B59511C3F9C9300A842F2 /* AppDelegate.m */; };
 		B87B59551C3F9C9300A842F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B87B59541C3F9C9300A842F2 /* ViewController.m */; };
@@ -38,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18D531BC1E1DE8A3006B4D89 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18D531BE1E1DE8AC006B4D89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18D531C01E1DE8B9006B4D89 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B87B594A1C3F9C9300A842F2 /* MBProgressHUD+YF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MBProgressHUD+YF.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B87B594E1C3F9C9300A842F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B87B59501C3F9C9300A842F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +73,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D531C11E1DE8B9006B4D89 /* CoreGraphics.framework in Frameworks */,
+				18D531BF1E1DE8AC006B4D89 /* Foundation.framework in Frameworks */,
+				18D531BD1E1DE8A3006B4D89 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +96,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18D531BB1E1DE8A3006B4D89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18D531C01E1DE8B9006B4D89 /* CoreGraphics.framework */,
+				18D531BE1E1DE8AC006B4D89 /* Foundation.framework */,
+				18D531BC1E1DE8A3006B4D89 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B87B59411C3F9C9300A842F2 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +113,7 @@
 				B87B59661C3F9C9300A842F2 /* MBProgressHUD+YFTests */,
 				B87B59711C3F9C9300A842F2 /* MBProgressHUD+YFUITests */,
 				B87B594B1C3F9C9300A842F2 /* Products */,
+				18D531BB1E1DE8A3006B4D89 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -230,6 +250,7 @@
 				TargetAttributes = {
 					B87B59491C3F9C9300A842F2 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 686TP5D9Q7;
 					};
 					B87B59621C3F9C9300A842F2 = {
 						CreatedOnToolsVersion = 7.2;
@@ -439,6 +460,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 686TP5D9Q7;
 				INFOPLIST_FILE = "MBProgressHUD+YF/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -451,6 +473,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 686TP5D9Q7;
 				INFOPLIST_FILE = "MBProgressHUD+YF/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -526,6 +549,7 @@
 				B87B59791C3F9C9300A842F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B87B597A1C3F9C9300A842F2 /* Build configuration list for PBXNativeTarget "MBProgressHUD+YFTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +558,7 @@
 				B87B597C1C3F9C9300A842F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B87B597D1C3F9C9300A842F2 /* Build configuration list for PBXNativeTarget "MBProgressHUD+YFUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +567,7 @@
 				B87B597F1C3F9C9300A842F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
