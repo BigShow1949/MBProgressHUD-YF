@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B87B59491C3F9C9300A842F2"
+               BlueprintIdentifier = "18D531CA1E1DF23B006B4D89"
                BuildableName = "MBProgressHUD+YF.app"
                BlueprintName = "MBProgressHUD+YF"
                ReferencedContainer = "container:MBProgressHUD+YF.xcodeproj">
@@ -28,31 +28,11 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B87B59621C3F9C9300A842F2"
-               BuildableName = "MBProgressHUD+YFTests.xctest"
-               BlueprintName = "MBProgressHUD+YFTests"
-               ReferencedContainer = "container:MBProgressHUD+YF.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B87B596D1C3F9C9300A842F2"
-               BuildableName = "MBProgressHUD+YFUITests.xctest"
-               BlueprintName = "MBProgressHUD+YFUITests"
-               ReferencedContainer = "container:MBProgressHUD+YF.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B87B59491C3F9C9300A842F2"
+            BlueprintIdentifier = "18D531CA1E1DF23B006B4D89"
             BuildableName = "MBProgressHUD+YF.app"
             BlueprintName = "MBProgressHUD+YF"
             ReferencedContainer = "container:MBProgressHUD+YF.xcodeproj">
@@ -75,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B87B59491C3F9C9300A842F2"
+            BlueprintIdentifier = "18D531CA1E1DF23B006B4D89"
             BuildableName = "MBProgressHUD+YF.app"
             BlueprintName = "MBProgressHUD+YF"
             ReferencedContainer = "container:MBProgressHUD+YF.xcodeproj">
@@ -94,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B87B59491C3F9C9300A842F2"
+            BlueprintIdentifier = "18D531CA1E1DF23B006B4D89"
             BuildableName = "MBProgressHUD+YF.app"
             BlueprintName = "MBProgressHUD+YF"
             ReferencedContainer = "container:MBProgressHUD+YF.xcodeproj">
