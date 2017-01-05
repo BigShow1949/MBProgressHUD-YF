@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-s.name         = "MBProgressHUD+YF.podspec"
+s.name         = "MBProgressHUD-YF.podspec"
 s.version      = "0.0.1"
 s.summary      = "An iOS activity indicator view."
 s.description  = <<-DESC
